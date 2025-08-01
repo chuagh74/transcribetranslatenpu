@@ -1,0 +1,13 @@
+{
+  "model_dir": "models",
+  "device_preference": ["NPU", "CPU"],
+  "stt_subdir": "whisper-small",
+  "stt_torch_subdir": "torch",
+  "stt_ir_subdir": "vino",
+  "trans_subdir": "m2m100_418M",
+  "trans_onnx_subdir": "torch",
+  "trans_torch_subdir": "torch",
+  "trans_ir_subdir": "vino",
+  "tts_subdir": "kokoro_tts",
+  "tts_sample_rate": 24000
+}

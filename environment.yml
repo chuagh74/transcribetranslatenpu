@@ -1,0 +1,26 @@
+name: NPU2
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pytorch=2.6.0
+  - librosa
+  - pip
+  - pip:
+    - optimum[openvino,onnxruntime-gpu]
+    - openvino-genai==2025.2.0
+    - nncf
+    - uv
+    - fastapi
+    - faster_whisper
+    - huggingface
+    - uvicorn
+    - websockets
+    - hf_xet
+    - python-multipart
+    - sentencepiece
+    - pydub
+    - accelerate
+    - pydantic-settings
+    - silero-vad
+    - kokoro-onnx
